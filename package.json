@@ -1,0 +1,22 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "@twurple/api": "^7.0.6",
+    "@twurple/auth": "^7.0.6",
+    "@twurple/chat": "^7.0.6",
+    "@twurple/easy-bot": "^7.0.6",
+    "@twurple/eventsub-ws": "^7.0.6",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
